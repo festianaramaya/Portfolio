@@ -322,12 +322,47 @@ a:hover {
   display: flex;
   align-items: center;
   padding-top: calc(var(--spacing-3xl) + 60px);
-  background: url("img/jahim.jpg") no-repeat center center/cover;
+  background: url("img/jahim.jpg") no-repeat center center / cover;
   position: relative;
   overflow: hidden;
 }
 
+.home-cta .btn {
+  color: #fff; /* ensure white text on both buttons */
+  -webkit-font-smoothing: auto; /* avoid overly soft/blurred glyphs */
+  text-shadow: none;
+}
+.home-cta .btn-primary,
+.home-cta .btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.home-cta .btn-primary:hover,
+.home-cta .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 
+.home-cta .btn-secondary {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.home-cta .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.home-title {
+  -webkit-text-fill-color: initial; /* reset gradient fill */
+  background: none !important;
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Added animated background shapes */
 .home-section::before {
@@ -375,16 +410,6 @@ a:hover {
 
 .home-text {
   animation: fadeInUp 0.8s ease;
-}
-
-.home-title {
-  margin-bottom: var(--spacing-md);
-  /* Updated gradient for title */
-  background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .home-subtitle {
@@ -509,6 +534,8 @@ a:hover {
   /* Added button animation */
   position: relative;
   overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 .btn::before {
@@ -533,6 +560,7 @@ a:hover {
   background: rgba(255, 255, 255, 0.2);
   color: white;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -546,11 +574,14 @@ a:hover {
   background: transparent;
   color: white;
   border-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 /* About Section */
@@ -636,7 +667,7 @@ a:hover {
 
 .tag {
   background: var(--gradient-primary);
-  color: white;
+  color: #ffffff;
   padding: var(--spacing-xs) var(--spacing-md);
   border-radius: var(--radius-full);
   font-size: 0.875rem;
@@ -681,15 +712,15 @@ a:hover {
 }
 
 .experience-card {
-  background-color: #F5D3C4; /* peach lembut biar kontras */
-  border-left: 4px solid #A7AAE1; /* ungu pastel sebagai accent */
+  background-color: #f5d3c4; /* peach lembut biar kontras */
+  border-left: 4px solid #a7aae1; /* ungu pastel sebagai accent */
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .experience-title {
-  color: #696FC7; /* biru-ungu dari palette */
+  color: #696fc7; /* biru-ungu dari palette */
   text-align: center;
   font-weight: 700;
   margin-bottom: 40px;
@@ -724,7 +755,7 @@ a:hover {
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background: #F2AEBB; /* pink soft untuk garis bawah */
+  background: #f2aebb; /* pink soft untuk garis bawah */
   border-radius: var(--radius-full);
 }
 
@@ -741,7 +772,7 @@ a:hover {
   top: 0;
   bottom: 0;
   width: 3px;
-  background: #A7AAE1; /* ungu pastel untuk garis timeline */
+  background: #a7aae1; /* ungu pastel untuk garis timeline */
   border-radius: var(--radius-full);
 }
 
@@ -757,7 +788,7 @@ a:hover {
   top: 8px;
   width: 20px;
   height: 20px;
-  background: #696FC7; /* marker biru-ungu */
+  background: #696fc7; /* marker biru-ungu */
   border: 4px solid #fff;
   border-radius: var(--radius-full);
   box-shadow: 0 0 0 4px rgba(105, 111, 199, 0.2);
@@ -766,7 +797,8 @@ a:hover {
 }
 
 @keyframes markerPulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1);
     box-shadow: 0 0 0 4px rgba(105, 111, 199, 0.2);
   }
@@ -777,7 +809,7 @@ a:hover {
 }
 
 .timeline-content {
-  background: #EDEAFF; /* soft light purple untuk kotak timeline */
+  background: #edeaff; /* soft light purple untuk kotak timeline */
   padding: var(--spacing-md);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
@@ -788,7 +820,7 @@ a:hover {
 .timeline-content:hover {
   transform: translateX(8px) translateY(-5px);
   box-shadow: var(--shadow-lg);
-  border-color: #F2AEBB; /* pink lembut saat hover */
+  border-color: #f2aebb; /* pink lembut saat hover */
 }
 
 .timeline-header {
@@ -801,14 +833,14 @@ a:hover {
 }
 
 .timeline-header h3 {
-  color: #696FC7; /* judul ungu biru */
+  color: #696fc7; /* judul ungu biru */
   font-size: 1rem;
   margin: 0;
   flex: 1; /* biar fleksibel */
 }
 
 .timeline-period {
-  background: #F2AEBB; /* pink lembut */
+  background: #f2aebb; /* pink lembut */
   color: #fff;
   padding: 4px 12px;
   border-radius: 20px;
@@ -834,8 +866,18 @@ a:hover {
 
 /* Certifications Section */
 .certifications-section {
-  background: #A7AAE1; /* ungu pastel lembut */
+  background: #a7aae1; /* ungu pastel lembut */
   padding: var(--spacing-3xl) 0;
+}
+
+.certifications-section .section-title {
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+.certifications-section .section-title::after {
+  /* keep the underline visible with the brand gradient */
+  background: var(--gradient-primary);
 }
 
 .certifications-grid {
@@ -853,20 +895,20 @@ a:hover {
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
   transition: all var(--transition-base);
-  border: 2px solid #F2AEBB; /* pink pastel */
+  border: 2px solid #f2aebb; /* pink pastel */
 }
 
 .certification-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
-  border-color: #696FC7; /* ungu biru saat hover */
+  border-color: #696fc7; /* ungu biru saat hover */
 }
 
 .certification-icon {
   width: 80px;
   height: 80px;
   margin: 0 auto var(--spacing-md);
-  background: #696FC7; /* ungu biru */
+  background: #696fc7; /* ungu biru */
   border-radius: var(--radius-md);
   display: flex;
   align-items: center;
@@ -908,7 +950,7 @@ a:hover {
 
 /* Skills Section */
 .skills-section {
-  background: #F2AEBB; /* pink lembut */
+  background: #f2aebb; /* pink lembut */
   padding: var(--spacing-xl);
   border-radius: var(--radius-lg);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
@@ -941,7 +983,7 @@ a:hover {
 }
 
 .skills-tags .tag {
-  background: #696FC7; /* ungu biru */
+  background: #696fc7; /* ungu biru */
   color: #fff;
   font-weight: 500;
   border-radius: var(--radius-full);
@@ -950,7 +992,7 @@ a:hover {
 
 /* Achievements Section */
 .achievements-section {
-  background: #F2AEBB; /* peach lembut */
+  background: #f2aebb; /* peach lembut */
   padding: var(--spacing-xl);
   border-radius: var(--radius-lg);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
@@ -989,7 +1031,6 @@ a:hover {
   font-size: 1.25rem;
 }
 
-
 /* Projects Section */
 .projects-section {
   background: #ffffff; /* putih bersih */
@@ -1011,32 +1052,45 @@ a:hover {
   box-shadow: var(--shadow-sm);
   transition: all var(--transition-base);
   cursor: pointer;
+  display: flex;
+  flex-direction: column; /* stack image (auto) + content (flex) */
+  overflow: hidden; /* keep rounded corners clean */
 }
-
-.project-card:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: var(--shadow-lg);
-}
-
 .project-image {
+  flex: 0 0 220px; /* keep image height; avoids layout jump */
   width: 100%;
   height: 220px;
   object-fit: cover;
   transition: transform var(--transition-slow);
 }
-
 .project-card:hover .project-image {
   transform: scale(1.1);
 }
 
 .project-content {
-  padding: var(--spacing-md);
-  background: #F2AEBB; /* pink lembut dari palet */
-  color: #333; /* font lebih gelap agar kontras */
+  flex: 1 1 auto;
+  background: #f2aebb;
+  color: #333;
+  border-bottom-left-radius: var(--radius-lg);
+  border-bottom-right-radius: var(--radius-lg);
+  padding: 1.25rem; /* ✨ tambahkan padding supaya teks gak nempel ke tepi */
+}
+.project-title {
+  margin-top: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
+.project-tags {
+  margin-bottom: 0.75rem;
+}
+
+.project-links {
+  margin-top: 1rem;
+}
+
+
 .project-title {
-  color: #696FC7; /* ungu biru */
+  color: #696fc7; /* ungu biru */
   margin-bottom: var(--spacing-sm);
   font-size: 1.25rem;
   font-weight: 600;
@@ -1058,7 +1112,7 @@ a:hover {
 }
 
 .project-tag {
-  background: #696FC7; /* biru lembut */
+  background: #696fc7; /* biru lembut */
   color: #fff;
   padding: 0.25rem 0.75rem;
   border-radius: var(--radius-full);
@@ -1077,28 +1131,30 @@ a:hover {
   align-items: center;
   gap: 0.25rem;
   font-size: 0.875rem;
-  color: #696FC7; /* ungu biru */
+  color: #696fc7; /* ungu biru */
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .project-link:hover {
-  color: #A7AAE1; /* ungu pastel untuk hover */
+  color: #a7aae1; /* ungu pastel untuk hover */
 }
 
 /* Reflections Section */
 .reflections-section {
-  background: #A7AAE1; /* ungu pastel lembut */
+  background: #a7aae1; /* ungu pastel lembut */
   color: var(--color-text);
   padding: var(--spacing-3xl) 0;
 }
 
 .reflections-section .section-title {
-  color: var(--color-primary); /* ungu biru tegas */
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
 }
-
 .reflections-section .section-title::after {
-  background: var(--color-secondary); /* pink lembut */
+  /* keep the underline visible with the brand gradient */
+  background: var(--gradient-primary);
 }
 
 .reflections-content {
@@ -1147,7 +1203,7 @@ a:hover {
 }
 
 .highlight-item {
-  background: #F2AEBB; /* peach */
+  background: #f2aebb; /* peach */
   color: var(--color-text);
   padding: var(--spacing-lg);
   border-radius: var(--radius-md);
@@ -1171,7 +1227,6 @@ a:hover {
   line-height: 1.7;
   color: var(--color-text-light);
 }
-
 
 /* Contact Section */
 .contact-section {
@@ -1371,6 +1426,30 @@ a:hover {
   gap: var(--spacing-md);
   margin-top: var(--spacing-lg);
   flex-wrap: wrap;
+}
+
+.modal .btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+  border-color: var(--color-primary);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.modal .btn-primary:hover {
+  background: var(--color-primary-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.modal .btn-secondary {
+  background: var(--gradient-primary);
+  color: #ffffff;
+  border-color: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+.modal .btn-secondary:hover {
+  filter: brightness(0.95);
+  box-shadow: var(--shadow-md);
 }
 
 /* Animations */
@@ -1613,4 +1692,30 @@ a:hover {
   cursor: pointer;
 }
 
+/* Resume Section - Blue Theme */
+.resume-section {
+  background: #a7aae1; /* biru pastel lembut */
+  padding: var(--spacing-3xl) 0;
+}
+
+.resume-section .section-title {
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+  color: #ffffff !important;
+}
+
+.resume-section .section-title::after {
+  background: var(--gradient-primary);
+}
+
+.resume-section p {
+  color: #ffffff; /* teks deskripsi jadi putih */
+}
+
+.resume-section iframe {
+  background: #ffffff; /* area PDF viewer putih */
+  border-radius: var(--radius-lg);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem;
+}
 

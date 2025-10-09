@@ -160,11 +160,11 @@ function setDefaultData() {
         ],
         links: {
           demo: "https://example.com/portfolio", // ganti dengan link demo portfoliomu
-          github: "https://github.com/festianaramaya/Portfolio"
+          github: "https://github.com/festianaramaya/Portfolio",
         },
       },
     ],
-    
+
     organizations: [
       {
         name: "Organization A",
