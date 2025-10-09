@@ -278,22 +278,22 @@
     },
     {
       "id": 5,
-      "title": "Social Media Analytics",
-      "description": "Analytics dashboard for tracking social media performance and engagement.",
-      "image": "/analytics-dashboard.png",
-      "tags": ["Python", "Django", "Chart.js"],
-      "fullDescription": "Created a comprehensive analytics dashboard that tracks social media performance across multiple platforms. Provides insights on engagement, reach, and audience demographics with interactive visualizations.",
-      "technologies": ["Python", "Django", "Chart.js", "PostgreSQL", "REST API"],
+      "title": "Personal Portfolio Website (English Midterm Exam)",
+      "description": "A modern and responsive personal portfolio website showcasing my experiences, projects, and achievements.",
+      "image": "img/english.jpg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "fullDescription": "Developed a fully responsive personal portfolio website to present my background, experiences, and accomplishments in a professional and visually appealing way. The website features smooth navigation and a clean interface for an optimal user experience.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
       "features": [
-        "Multi-platform integration",
-        "Real-time analytics",
-        "Interactive data visualizations",
-        "Automated reporting",
-        "Audience insights"
+        "Responsive design for desktop and mobile devices",
+        "Interactive navigation bar",
+        "About, Resume, Projects, and Contact sections",
+        "Smooth scrolling and modern animations",
+        "Integrated contact form and social media links"
       ],
       "links": {
-        "demo": "https://example.com/analytics",
-        "drive": "https://drive.google.com/analytics-project"
+        "demo": "https://example.com/portfolio",
+        "github": "https://github.com/festianaramaya/Portfolio"
       }
     }
   ]

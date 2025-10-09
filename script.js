@@ -144,26 +144,27 @@ function setDefaultData() {
       },
       {
         id: 5,
-        title: "Social Media Analytics",
-        description: "Analytics dashboard for tracking social media performance and engagement.",
-        image: "/analytics-dashboard.png",
-        tags: ["Python", "Django", "Chart.js"],
+        title: "Personal Portfolio Website (English Midterm Exam)",
+        description: "A modern personal portfolio website showcasing my background, skills, and achievements.",
+        image: "/portfolio-website.png",
+        tags: ["HTML", "CSS", "JavaScript"],
         fullDescription:
-          "Created a comprehensive analytics dashboard that tracks social media performance across multiple platforms. Provides insights on engagement, reach, and audience demographics with interactive visualizations.",
-        technologies: ["Python", "Django", "Chart.js", "PostgreSQL", "REST API"],
+          "Developed a responsive personal portfolio website to present my professional journey, projects, and certifications. The design emphasizes clarity and simplicity, combining aesthetic visuals with smooth navigation for a professional online presence.",
+        technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "GitHub Pages"],
         features: [
-          "Multi-platform integration",
-          "Real-time analytics",
-          "Interactive data visualizations",
-          "Automated reporting",
-          "Audience insights",
+          "Responsive design for all devices",
+          "Interactive navigation menu",
+          "Project showcase with detailed descriptions",
+          "Certification and resume sections",
+          "Contact form with social media links",
         ],
         links: {
-          demo: "https://example.com/analytics",
-          drive: "https://drive.google.com/analytics-project",
+          demo: "https://example.com/portfolio", // ganti dengan link demo portfoliomu
+          github: "https://github.com/festianaramaya/Portfolio"
         },
       },
     ],
+    
     organizations: [
       {
         name: "Organization A",
