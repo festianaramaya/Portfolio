@@ -1,0 +1,300 @@
+{
+  "personal": {
+    "name": "Festiana Ramaya Putri",
+    "title": "Informatics Engineering Student",
+    "major": "D-IV Informatics Engineering",
+    "university": "Universitas Airlangga - Vocational Faculty",
+    "location": "Gubeng Kertajaya 9C",
+    "email": "festianaramaya@gmail.com",
+    "phone": "088217803188",
+    "whatsapp": "https://wa.me/6288217803188",
+    "linkedin": "https://www.linkedin.com/in/festiana-ramaya-putri-4b2940378/",
+    "github": "https://github.com/festianaramaya",
+    "instagram": "https://instagram.com/festiana.rp",
+    "twitter": "https://x.com/f3cti",
+    "videoIntro": "https://youtu.be/c4j1rT_aIFQ",
+    "resumePdf": "CV Festiana.pdf"
+  },
+  "home": {
+    "welcome": "Welcome to My Portfolio",
+    "subtitle": "Building the future, one project at a time",
+    "quote": "The only way to do great work is to love what you do. - Steve Jobs"
+  },
+  "about": {
+    "bio": "I am an Informatics Engineering student with a strong interest in software development and data analysis. I have experience with programming languages such as PHP, HTML, and CSS, and exposure to both front-end and back-end development. Through organizational and committee involvement, I have developed project management, teamwork, and analytical skills that support my academic and professional growth.",
+    "interests": ["Web Development", "Data Analysis", "Software Development", "Project Management"],
+    "goals": [
+      "Become a full-stack developer",
+      "Contribute to open-source projects",
+      "Build products that solve real-world problems"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Universitas Airlangga",
+      "degree": "D-IV Informatics Engineering",
+      "faculty": "Vocational Faculty",
+      "period": "August 2023 - Present"
+    },
+    {
+      "institution": "SMA N 1 Kertosono",
+      "degree": "High School",
+      "period": "2020 - 2023"
+    }
+  ],
+  "skills": {
+    "soft": ["Time management", "Teamwork", "Project management", "Analytical Thinking"],
+    "hard": ["PHP", "SQL", "Laravel", "MySQL", "Figma", "Linux", "MS Word", "HTML", "CSS"]
+  },
+  "achievements": ["Top 9 Finalist – FORPIS PMI East Java Coordinator Candidate (2022)"],
+  "certifications": [
+    {
+      "name": "Data Classification and Summarization Using IBM Granite",
+      "issuer": "IBM SkillsBuild",
+      "year": "2025"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "UKM Bulutangkis Unair",
+      "role": "Staff of Coaching Division",
+      "period": "January 2024 - Present",
+      "description": "Supported development of student sports activities.",
+      "link": "https://www.instagram.com/p/DKrsX3vzlLl/?img_index=1"
+    },
+    {
+      "name": "Hima D4 Informatics Engineering, Universitas Airlangga",
+      "role": "Secretary of Education Department",
+      "period": "February 2024 - Present",
+      "description": "Supported administration and permits within the organization.",
+      "link": "https://www.instagram.com/p/DHVntp0yOVW/?img_index=3"
+    },
+    {
+      "name": "Hima D4 Informatics Engineering, Universitas Airlangga",
+      "role": "Staff of Education Department",
+      "period": "January - December 2024",
+      "description": "Developed extracurricular activities and managed student competitions.",
+      "link": "https://www.instagram.com/p/DFaISioSWrJ/?img_index=3"
+    },
+    {
+      "name": "Google Developer Student Club (GDSC) Unair",
+      "role": "Member",
+      "period": "October 2023 - September 2024",
+      "description": "Explored and developed opportunities in technology fields."
+    },
+    {
+      "name": "FORPIS PMI JATIM",
+      "role": "Member",
+      "period": "2021 - 2022",
+      "description": "Supported coordination of PMI youth programs at the district level."
+    },
+    {
+      "name": "PMR WIRA SMAN 1 Kertosono",
+      "role": "Vice Leader",
+      "period": "2021",
+      "description": "Supported the chairperson and coordinated members as a batch leader.",
+      "link": "https://www.instagram.com/p/CT_YygPvkwx/?img_index=4"
+    },
+    {
+      "name": "PMR WIRA SMAN 1 Kertosono",
+      "role": "Member",
+      "period": "2020",
+      "description": "Contributed to humanitarian activities in health, blood donation, and first aid organized by PMI.",
+      "link": "https://www.instagram.com/p/CMHxgTYDArx/?img_index=3"
+    }
+  ],
+  "committees": [
+    {
+      "event": "Unair Open 2025",
+      "role": "Secretariat Coordinator",
+      "period": "July 2025 - Present",
+      "link": "https://www.instagram.com/p/DPG7_UlEo_Z/?img_index=1"
+    },
+    {
+      "event": "Panitia Duta Vokasi 2025",
+      "role": "Sponsorship Division Staff",
+      "period": "May - September 2025",
+      "link": "https://www.instagram.com/dutavokasiunair"
+    },
+    {
+      "event": "Vox Championship 2025",
+      "role": "Field Coordinator & Security Staff",
+      "period": "April - July 2025",
+      "link": "https://www.instagram.com/p/DJYavo8v8st/?img_index=4"
+    },
+    {
+      "event": "Pomprov Jatim III",
+      "role": "Linesman Division Staff",
+      "period": "June 2025",
+      "link": "https://x.com/f3cti/status/1973770722989490261"
+    },
+    {
+      "event": "Airlangga Badminton Championship 2025",
+      "role": "Secretariat Coordinator",
+      "period": "March - May 2025",
+      "link": "https://www.instagram.com/p/DKt5eIPviQK/?img_index=1"
+    },
+    {
+      "event": "Airlangga Convention 2.0",
+      "role": "Liaison Officer Staff",
+      "period": "October 2024 - February 2025"
+    },
+    {
+      "event": "Upgrading dan Welcome Party UKMBT 2025",
+      "role": "Event Division Staff",
+      "period": "January 2025"
+    },
+    {
+      "event": "Teknik Cup 2024",
+      "role": "Secretary",
+      "period": "September - December 2024",
+      "link": "https://www.instagram.com/p/DCbz-U3zdKO/?img_index=2"
+    },
+    {
+      "event": "Inisialisasi 2024",
+      "role": "Medical Division Staff",
+      "period": "September - November 2024"
+    },
+    {
+      "event": "Airlangga Championship 2024",
+      "role": "Public Relations and Licensing Division Staff",
+      "period": "August - November 2024"
+    },
+    {
+      "event": "Teknovistavest 2024",
+      "role": "Consumption Division Staff",
+      "period": "August - October 2024",
+      "link": "https://www.instagram.com/p/C-FYIu7JUVH/?img_index=3"
+    },
+    {
+      "event": "Unair Open 2024",
+      "role": "Linesman Division Staff",
+      "period": "July - October 2024",
+      "link": "https://www.instagram.com/p/DAA3o9cpjRH/?img_index=1"
+    },
+    {
+      "event": "Studi Banding Vol 2",
+      "role": "Event Division Staff",
+      "period": "October 2024"
+    },
+    {
+      "event": "Teknik Informatika Sports League",
+      "role": "Medical Division Coordinator",
+      "period": "January - February 2024",
+      "link": "https://www.instagram.com/p/C3zMLQqJHrP/?img_index=2"
+    },
+    {
+      "event": "Pengabdian Masyarakat Fortschritte 2023",
+      "role": "Event Division Staff",
+      "period": "December 2023",
+      "link": "https://www.instagram.com/p/C0UXO_3Jgvl/"
+    }
+  ],
+  "reflections": {
+    "journey": "My time at Universitas Airlangga has been transformative. From learning the fundamentals of programming to building complex applications, each project has taught me valuable lessons about problem-solving, teamwork, and perseverance. The challenges I've faced have shaped me into a more resilient and creative thinker.",
+    "challenges": "Balancing multiple projects while maintaining academic excellence, learning new technologies independently, and collaborating effectively in team environments.",
+    "highlights": "Successfully deploying my first full-stack application, presenting at university tech events, and mentoring junior students in programming fundamentals.",
+    "aspirations": "I aim to continue growing as a developer, contribute to meaningful open-source projects, and eventually build technology solutions that positively impact my community."
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "title": ".feastion - Online Clothing Store (UAS UI)",
+      "description": "A simple e-commerce website for buying and selling clothes with product catalog, shopping cart, and checkout features.",
+      "image": "img/uas ui.jpg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "fullDescription": "Developed as a final project for the User Interface (UI) course. This website is designed to make it easier for users to browse, select, and purchase clothing online. It includes product catalog, product details, shopping cart, and checkout simulation. The admin side allows product management through a simple dashboard.",
+      "technologies": ["HTML", "CSS", "JavaScript", "LocalStorage"],
+      "features": [
+        "Product catalog with categories",
+        "Product detail page",
+        "Shopping cart with automatic calculation",
+        "Checkout form and payment simulation",
+        "Admin dashboard for product management"
+      ],
+      "links": {
+        "demo": "https://festianaramaya.github.io/UI_UAS/",
+        "github": "https://github.com/festianaramaya/UI_UAS"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Meowsome - Cat Lovers Website (UTS UI)",
+      "description": "A website dedicated to cat lovers, featuring product collections, care guides, blogs, and community interaction.",
+      "image": "img/uts ui.jpg",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "fullDescription": "Developed as a midterm project (UTS) for the User Interface (UI) course. This website is designed for cat enthusiasts to explore collections of cat products, read care guides, enjoy fun cat blogs, and interact with the community. The goal is to provide a delightful and informative platform for cat lovers.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": [
+        "Cat product collections",
+        "Cat care guides and tips",
+        "Interactive blog posts about cats",
+        "Community testimonial section",
+        "Responsive design for various devices"
+      ],
+      "links": {
+        "demo": "https://festianaramaya.github.io/UI-UTS/",
+        "github": "https://github.com/festianaramaya/UI-UTS"
+      }
+    },
+   {
+      "id": 3,
+      "title": "K3Care - Occupational Safety & Health (Mobile App)",
+      "description": "Mobile app for workplace safety reporting, work hour reminders, and labor law regulations.",
+      "image": "img/k3care.jpg",
+      "tags": ["Flutter", "Dart", "Mobile App"],
+      "fullDescription": "Developed as a mobile application project focused on occupational safety and health (K3). The app allows workers to report workplace incidents, receive reminders for work and rest hours, and access labor law regulations. Built using Flutter and Dart, the app supports both Android and iOS platforms.",
+      "technologies": ["Flutter", "Dart", "Firebase"],
+      "features": [
+        "Workplace incident reporting system",
+        "Work hour and break time reminders",
+        "Access to labor law and safety regulations",
+        "Cross-platform support (Android & iOS)",
+        "Simple and user-friendly interface"
+      ],
+      "links": {
+        "github": "https://github.com/festianaramaya/K3Care"
+      }
+    },
+    {
+      "id": 4,
+      "title": "OurCity - Regional Reporting Website (Framework)",
+      "description": "A web-based platform for reporting and monitoring regional issues and development progress.",
+      "image": "img/ourcity.jpg",
+      "tags": ["CSS", "Pug", "JavaScript", "SCSS", "PHP", "Blade"],
+      "fullDescription": "Developed as a collaborative group project, OurCity is a web-based reporting platform that enables citizens to report regional issues directly on an interactive map, such as damaged infrastructure (e.g., broken bridges, potholes). Administrators can submit project updates to inform the public about ongoing or completed regional development and repairs. The system enhances transparency and community participation in regional development.",
+      "technologies": ["CSS", "Pug", "JavaScript", "SCSS", "PHP", "Blade"],
+      "features": [
+        "User report submission with map integration",
+        "Photo and description upload for incidents",
+        "Admin project progress updates",
+        "Interactive map to visualize reports and projects",
+        "Multi-role access (User & Admin)"
+      ],
+      "links": {
+        "github": "https://github.com/diandrameilaa/ourcity"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Social Media Analytics",
+      "description": "Analytics dashboard for tracking social media performance and engagement.",
+      "image": "/analytics-dashboard.png",
+      "tags": ["Python", "Django", "Chart.js"],
+      "fullDescription": "Created a comprehensive analytics dashboard that tracks social media performance across multiple platforms. Provides insights on engagement, reach, and audience demographics with interactive visualizations.",
+      "technologies": ["Python", "Django", "Chart.js", "PostgreSQL", "REST API"],
+      "features": [
+        "Multi-platform integration",
+        "Real-time analytics",
+        "Interactive data visualizations",
+        "Automated reporting",
+        "Audience insights"
+      ],
+      "links": {
+        "demo": "https://example.com/analytics",
+        "drive": "https://drive.google.com/analytics-project"
+      }
+    }
+  ]
+}
